@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Beranda - PixelMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Awan & Musik -->
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/minecraft-aether-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" onclick="toggleMusic()">🎵 Musik</button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🧱 PixelMed</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Konten Dokter -->
+  <main class="page-content">
+    <h1>Dokter Kami</h1>
+    <p>Berikut adalah daftar dokter spesialis di PixelMed:</p>
+
+    <div class="doctor-grid">
+      <div class="doctor-card">
+        <img src="assets/doctor1.png" alt="Dr. Steve" />
+        <h3>Dr. Steve</h3>
+        <p>Spesialis Umum</p>
+        <p>Senin – Kamis: 08.00 – 14.00</p>
+      </div>
+
+      <div class="doctor-card">
+        <img src="assets/doctor2.png" alt="Dr. Alex" />
+        <h3>Dr. Alex</h3>
+        <p>Spesialis Anak</p>
+        <p>Selasa – Jumat: 09.00 – 15.00</p>
+      </div>
+
+      <div class="doctor-card">
+        <img src="assets/doctor3.png" alt="Dr. Villager" />
+        <h3>Dr. Villager</h3>
+        <p>Psikolog Klinis</p>
+        <p>Senin – Rabu: 10.00 – 13.00</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PixelMed. All rights reserved.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Created by Jonathan Pramudita</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

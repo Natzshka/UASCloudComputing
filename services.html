@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Beranda - PixelMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Awan & Musik -->
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/minecraft-aether-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" onclick="toggleMusic()">🎵 Musik</button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🧱 PixelMed</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Konten Layanan -->
+  <main class="page-content">
+    <h1>Layanan PixelMed</h1>
+    <p style="margin-bottom: 2rem;">
+      Temukan layanan kesehatan terbaik kami, semua dibalut dalam nuansa Minecraft Aether yang damai dan nyaman.
+    </p>
+
+    <div class="service-grid">
+      <div class="service-card">
+        <h3>🛏️ Rawat Inap</h3>
+        <p>Kamar dengan desain blok dan kenyamanan maksimal, cocok untuk pasien segala usia.</p>
+      </div>
+      <div class="service-card">
+        <h3>🩺 Poliklinik</h3>
+        <p>Konsultasi umum & spesialis dengan dokter berpengalaman di dunia medis.</p>
+      </div>
+      <div class="service-card">
+        <h3>🚑 IGD 24 Jam</h3>
+        <p>Siaga sepanjang waktu untuk kondisi darurat dan penanganan cepat.</p>
+      </div>
+      <div class="service-card">
+        <h3>🧪 Laboratorium</h3>
+        <p>Fasilitas diagnostik lengkap untuk cek kesehatan rutin dan lanjutan.</p>
+      </div>
+      <div class="service-card">
+        <h3>💊 Apotek Digital</h3>
+        <p>Pembelian obat mudah, cepat, dan terintegrasi langsung dengan rekam medis dan dapat diantar ke rumah.</p>
+      </div>
+      <div class="service-card">
+        <h3>🧠 Konseling Psikologi</h3>
+        <p>Layanan psikologi ramah pasien dengan pendekatan tenang dan mendalam.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PixelMed. All rights reserved.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Created by Jonathan Pramudita</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

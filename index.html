@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Beranda - PixelMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Awan & Musik -->
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/minecraft-aether-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" onclick="toggleMusic()">🎵 Musik</button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="PixelMed Logo" style="height: 40px; vertical-align: middle;" />
+      PixelMed
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Selamat Datang di PixelMed</h1>
+    <p>Rumah sakit modern dengan nuansa damai dari dunia Minecraft Aether 🌥️</p>
+    <div class="cta">
+      <a href="appointments.html" class="btn-pixel">Buat Janji</a>
+      <a href="services.html" class="btn-pixel">Lihat Layanan</a>
+    </div>
+  </section>
+
+  <!-- Info Section -->
+  <section class="info-blocks">
+    <div class="info-card">
+      <h3>💙 Nyaman & Aman</h3>
+      <p>Fasilitas ramah pasien dengan desain ala dunia blok yang menenangkan.</p>
+    </div>
+    <div class="info-card">
+      <h3>🧠 Dokter Profesional</h3>
+      <p>Tim medis berpengalaman tersedia setiap hari untuk melayani Anda.</p>
+    </div>
+    <div class="info-card">
+      <h3>🌐 Reservasi Online</h3>
+      <p>Atur jadwal kunjungan hanya dalam beberapa klik tanpa antri.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PixelMed. All rights reserved.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Created by Jonathan Pramudita</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

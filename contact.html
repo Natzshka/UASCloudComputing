@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Beranda - PixelMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Awan & Musik -->
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/minecraft-aether-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" onclick="toggleMusic()">🎵 Musik</button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🧱 PixelMed</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Konten Contact -->
+  <main class="page-content">
+    <h1>📩 Hubungi Kami</h1>
+    <p>Silakan kirim pesan atau kunjungi kami langsung di lokasi kami.</p>
+
+    <div class="contact-grid">
+      <!-- Form -->
+      <form class="contact-form">
+        <label>Nama</label>
+        <input type="text" placeholder="Nama Anda" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="email@domain.com" required />
+
+        <label>Pesan</label>
+        <textarea rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+
+        <button type="submit" class="btn-pixel">Kirim Pesan</button>
+      </form>
+
+      <!-- Info Kontak -->
+      <div class="contact-info">
+        <h3>📍 Lokasi</h3>
+        <p>PixelMed Hospital<br>Jalan Aether 88, Skylandia</p>
+
+        <h3>📞 Telepon</h3>
+        <p>(021) 555-0123</p>
+
+        <h3>✉️ Email</h3>
+        <p>info@pixelmed.mc</p>
+
+        <h3>⏰ Jam Operasional</h3>
+        <p>Senin - Minggu: 08.00 - 20.00</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PixelMed. All rights reserved.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Created by Jonathan Pramudita</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

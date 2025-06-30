@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Beranda - PixelMed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Awan & Musik -->
+  <div class="cloud cloud1"></div>
+  <div class="cloud cloud2"></div>
+
+  <audio id="bg-music" loop>
+    <source src="assets/minecraft-aether-music.mp3" type="audio/mpeg">
+  </audio>
+  <button class="music-toggle" onclick="toggleMusic()">🎵 Musik</button>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">🧱 PixelMed</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="appointments.html">Appointments</a></li>
+        <li><a href="facilities.html" class="active">Facilities</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Konten Fasilitas -->
+  <main class="page-content">
+    <h1>🏥 Fasilitas PixelMed</h1>
+    <p>Fasilitas modern berpadu dengan nuansa damai Minecraft untuk kenyamanan pasien dan keluarga.</p>
+
+    <div class="facility-grid">
+      <div class="facility-card">
+        <img src="assets/facility-room.png" alt="Kamar Inap" />
+        <h3>Kamar Inap Bergaya Blok</h3>
+        <p>Kenyamanan maksimal dengan kamar bergaya Minecraft & pencahayaan Aether.</p>
+      </div>
+      <div class="facility-card">
+        <img src="assets/facility-lab.png" alt="Lab" />
+        <h3>Laboratorium Canggih</h3>
+        <p>Dilengkapi alat modern & akurat untuk semua jenis pemeriksaan.</p>
+      </div>
+      <div class="facility-card">
+        <img src="assets/facility-pharma.png" alt="Apotek" />
+        <h3>Apotek Digital</h3>
+        <p>Ambil resep tanpa antre, langsung dari gadget kamu.</p>
+      </div>
+      <div class="facility-card">
+        <img src="assets/facility-wifi.png" alt="WiFi" />
+        <h3>Wi-Fi Super Cepat</h3>
+        <p>Gratis untuk semua pengunjung. Browsing tanpa hambatan!</p>
+      </div>
+      <div class="facility-card">
+        <img src="assets/facility-park.png" alt="Taman" />
+        <h3>Taman Pemulihan</h3>
+        <p>Tempat tenang ala Minecraft untuk relaksasi & healing.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 PixelMed. All rights reserved.</p>
+    <p style="font-size: 0.85rem; opacity: 0.8;">Created by Jonathan Pramudita</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
